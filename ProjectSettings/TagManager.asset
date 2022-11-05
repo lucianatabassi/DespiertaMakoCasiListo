@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - platform
+  - balas
+  - barritaEnergia
+  - plataformaMovible
+  - balaEnemigo
+  - barra
+  - enemigo1
+  - aparato
+  - enemigo3
+  - golpes
+  - MomentoPelea
+  - suki
+  - Musica
+  - balaBoss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - BalaEnemigo
+  - Enemigo
+  - Objetos
+  - Bala
+  - Suelo
+  - TriggerArea
+  - Suki
+  - EnemigoESCENA2
+  - Aparato
+  - CheckGround
+  - Hotzone
+  - HitBoxes
+  - ColliderSuki
+  - CheckPoint
+  - PU
+  - Controlador
+  - Puntos
+  - BalaBoss
+  - Boss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: suelo
+    uniqueID: 1550041297
+    locked: 0
+  - name: personaje
+    uniqueID: 3060113981
+    locked: 0
+  - name: fondo
+    uniqueID: 743536895
+    locked: 0
+  - name: Suki
+    uniqueID: 1004435373
+    locked: 0
+  - name: EnemigoESCENA2
+    uniqueID: 644514867
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: bala
+    uniqueID: 3908321139
+    locked: 0
+  - name: torreta
+    uniqueID: 374519799
+    locked: 0

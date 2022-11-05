@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7721bad9228ac3c4d884b3d6978d4d6e
+  - enabled: 1
+    path: Assets/Scenes/Cinematica1.unity
+    guid: acbeb121b58fa954990b43b047c2a47f
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 38b64c1a08930644c95e5a897d376dc3
+  - enabled: 1
+    path: Assets/Scenes/CinematicaSuki.unity
+    guid: 632005fd828e843458a0ac5fe69d787a
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: b6c6d004c10c5ab468cb80839bf7cbfc
+  - enabled: 1
+    path: Assets/Scenes/CinematicaBoss.unity
+    guid: 90171c7c903f669408afe84f44939544
+  - enabled: 1
+    path: Assets/Scenes/Scene3.unity
+    guid: 3e3217f851526c448812474e66c46d91
+  - enabled: 1
+    path: Assets/Scenes/CinematicaCreditos.unity
+    guid: 0f153fac36b978146bd52803f3219f5b
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: be82ff2a90377c743930be4897e862a4
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 9ca8f59ef5f40e74abbade43afabf4b9
+  - enabled: 1
+    path: Assets/Scenes/GameOverN2.unity
+    guid: 8dcef55486994a64392441da19926ce3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Cargando.unity
+    guid: 495f868bb4f9e1343bf2923f73f939f3
+  m_configObjects: {}
