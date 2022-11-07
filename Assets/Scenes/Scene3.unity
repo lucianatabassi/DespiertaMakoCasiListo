@@ -4463,7 +4463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b4d7b16c4a32846a5a2a148a679687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hrange: {x: -10, y: 20}
+  Hrange: {x: -10, y: 10}
   Vrange: {x: -28, y: 23}
 --- !u!95 &2085535609
 Animator:

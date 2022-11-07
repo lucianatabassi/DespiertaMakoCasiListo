@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8737cff62fd8c974fae47c4d0cd3bc08
+guid: e6763443a85d7da4a83de799b07b2cce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 580
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_0
+      name: enemigo2disprandocolor_0
       rect:
         serializedVersion: 2
-        x: 109
-        y: 76
-        width: 85
-        height: 183
+        x: 17
+        y: 31
+        width: 1038
+        height: 1272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4abfcef95e01d14ea2c0a756b1a7fb6
-      internalID: 247728991
+      spriteID: e13dcce5a1a335b4fbe4c0c6c421802d
+      internalID: 875565307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_1
+      name: enemigo2disprandocolor_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 76
-        width: 87
-        height: 182
+        x: 246
+        y: 747
+        width: 9
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92aefa722d72e5246ba4d9bcc7543eb2
-      internalID: -1349398731
+      spriteID: d8b3a0b6cfc09f349ba63a2dc3311ced
+      internalID: 885904500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_2
+      name: enemigo2disprandocolor_2
       rect:
         serializedVersion: 2
-        x: 467
-        y: 76
-        width: 132
-        height: 181
+        x: 244
+        y: 329
+        width: 5
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8274b1213c479cf4d99405e0bdc450ad
-      internalID: -257487375
+      spriteID: d1bdedf5ea9c36740808ad03448dbf08
+      internalID: 112106923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_3
+      name: enemigo2disprandocolor_3
       rect:
         serializedVersion: 2
-        x: 682
-        y: 73
-        width: 91
-        height: 184
+        x: 208
+        y: 290
+        width: 5
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1f0294e87f5534a910beb8bcd79f08
-      internalID: 1816405199
+      spriteID: 3ca2e4427040f5744945326b73385936
+      internalID: -792048429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_4
+      name: enemigo2disprandocolor_4
       rect:
         serializedVersion: 2
-        x: 848
-        y: 81
-        width: 133
-        height: 178
+        x: 245
+        y: 285
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c026109707bf0d42bcea02607f368f4
-      internalID: 1957112502
+      spriteID: 77d8cb594818b5f4da3570a5d2c11561
+      internalID: -1052223173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_5
+      name: enemigo2disprandocolor_5
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 77
-        width: 74
-        height: 182
+        x: 243
+        y: 191
+        width: 4
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7d9a9da8c598ab4d9399921ef5038fd
-      internalID: -125756565
+      spriteID: 4ba7a8a719947bb4eb7cfe92c1aaad42
+      internalID: -63291297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_6
+      name: enemigo2disprandocolor_6
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 63
-        width: 96
-        height: 202
+        x: 242
+        y: 135
+        width: 4
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a323422cf3eae4d954ff0b242e6c74
-      internalID: -228856481
+      spriteID: 05e74f3c914dfb74895445de51190506
+      internalID: 1417629212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITES_MAKO_PELEANDO_7
+      name: enemigo2disprandocolor_7
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 62
-        width: 145
-        height: 202
+        x: 233
+        y: 99
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,8 +277,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c849351748ccc4a836464acf7058b7
-      internalID: 1065804585
+      spriteID: 1d751784a567b8d4991db5073d377660
+      internalID: 1442607177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo2disprandocolor_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 33
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0466660bdeb67394a906a4da53440849
+      internalID: 1699662082
       vertices: []
       indices: 
       edges: []
@@ -294,14 +315,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SPRITES_MAKO_PELEANDO_4: 1957112502
-      SPRITES_MAKO_PELEANDO_3: 1816405199
-      SPRITES_MAKO_PELEANDO_1: -1349398731
-      SPRITES_MAKO_PELEANDO_7: 1065804585
-      SPRITES_MAKO_PELEANDO_5: -125756565
-      SPRITES_MAKO_PELEANDO_2: -257487375
-      SPRITES_MAKO_PELEANDO_0: 247728991
-      SPRITES_MAKO_PELEANDO_6: -228856481
+      enemigo2disprandocolor_2: 112106923
+      enemigo2disprandocolor_0: 875565307
+      enemigo2disprandocolor_3: -792048429
+      enemigo2disprandocolor_1: 885904500
+      enemigo2disprandocolor_8: 1699662082
+      enemigo2disprandocolor_4: -1052223173
+      enemigo2disprandocolor_7: 1442607177
+      enemigo2disprandocolor_6: 1417629212
+      enemigo2disprandocolor_5: -63291297
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

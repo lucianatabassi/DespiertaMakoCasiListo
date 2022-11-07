@@ -22,30 +22,32 @@ public class MakoNivel2 : MonoBehaviour
     public GameObject DeschipeoSonido;
     public GameObject[] HeridaSonido;
 
-    public Color color1 = Color.red;
-    public Color color2 = Color.blue;
-    public float duration = 3.0F;
-    //public Camera cam;
+
+   /* public Image glitch;
+    public bool imgOn;
+    public float timerGlitch = 0;*/
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-       /*cam = GetComponent<Camera>();
-        cam.clearFlags = CameraClearFlags.SolidColor;*/
 
         anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
          puntosVidaPlayer = vidaMaxPlayer;
+
+       /* glitch.enabled = false;
+         imgOn = false;*/
+         
+         
          
     }
 
     // Update is called once per frame
     void Update()
     {
-       /* float t = Mathf.PingPong(Time.time, duration) / duration;
-        cam.backgroundColor = Color.Lerp(color1, color2, t);*/
+      
 
         barraDeVida.fillAmount = puntosVidaPlayer / vidaMaxPlayer;
 
@@ -58,8 +60,10 @@ public class MakoNivel2 : MonoBehaviour
         anim.SetBool("saltar", false);
          anim.SetBool("agachar", false);
         anim.SetBool("caer", false);
-        transform.eulerAngles = new Vector3 (0,180, 0); // para voltear al personaje             
+        transform.eulerAngles = new Vector3 (0,180, 0); // para voltear al personaje 
+              
     } 
+
 
     if (Input.GetKey("a") && Input.GetKey("space") ) {
         anim.SetBool("saltar", true);
@@ -157,16 +161,21 @@ public class MakoNivel2 : MonoBehaviour
          anim.SetBool("deschipear", false);
     }
 
+
      
     }
 
     private void OnTriggerEnter2D (Collider2D collider) {
         if (collider.gameObject.tag == "enemigo1")
         {
-            //Camera.main.GetComponent<Camera>().backgroundColor = new Color32(255,255,255,0);
-           // ChangeColor();
+           
             NuevoSonido(DeschipeoSonido, 1f);
+            
+
+            
         }
+        
+        
     }
 
     private void OnCollisionEnter2D (Collision2D collision) { // verificar q colisionamos con la plataforma cuando se mueve
@@ -205,6 +214,30 @@ public class MakoNivel2 : MonoBehaviour
 
 
     }
+
+
+  /* public void CamaraColor()
+    {
+  
+        
+         if (imgOn == false ) {
+ 
+                 glitch.enabled = true;
+                 imgOn = true;
+                
+                
+             }
+             else 
+             {
+                glitch.enabled = false;
+                 imgOn = false;
+                 
+             }
+ 
+             
+
+       
+    }*/
 
     void NuevoSonido (GameObject prefab, float duracion = 5f) {
          Destroy (Instantiate(prefab), duracion);

@@ -128,21 +128,7 @@ public Transform PuntoDisparo;  // desde donde sale la bala
                
     }
 
-    
-     
-     if (Input.GetKey ("space")) // si esta sobre una plataforma puede saltar 
-    {
-      if (tocaPlataforma.enPlat)
-        {
-             rb2D.velocity = new Vector2 (rb2D.velocity.x, velSaltar);
-              NuevoSonido(SaltoSonido, 1f);
-        }
-              
-        anim.SetBool("mooving", false);
-        anim.SetBool("jump", true);
-        anim.SetBool("falling", false);     
-        anim.SetBool("crouch", false);  
-    } 
+
 
 
      if (rb2D.velocity.y < 0 )
